@@ -1,0 +1,4 @@
+runtime: python39
+env_variables:
+    MYSQL_HOST: 'localhost'
+    SQL_USERNAME: 'CseLab2'

@@ -1,0 +1,35 @@
+
+###
+GET http://127.0.0.1:5000/generate_even_numbers/4
+
+
+### Create item
+POST http://127.0.0.1:5000/multiply
+content-type: application/json
+
+{
+     "matrix_a": [[1,2],[3,4]], 
+   "matrix_b": [[5,6],[7,8]]
+}
+
+
+###
+GET http://localhost:5000/?numbers=10,2,4,3,5&n=2
+
+
+###
+POST http://127.0.0.1:5000/register
+content-Type: application/json
+
+{ "username": "test2", 
+  "password": "test456" 
+} 
+
+
+###
+POST http://127.0.0.1:5000/login
+content-Type: application/json
+
+{ "username": "test2", 
+  "password": "test" 
+} 
